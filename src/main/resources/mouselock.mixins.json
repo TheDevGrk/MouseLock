@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "me.grkdev.mouselock.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"client": [
+		"MouseMixin"
+	],
+	"server": [],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
